@@ -10,7 +10,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
     <title>Todo App</title>
 </head>
 <body>
@@ -22,10 +21,10 @@
     <!-- Main structure -->
     <main class="main">
         <form id="todo-form">
-            <input type="text" class="task-input" placeholder="Add what you want to do..." />
+            <input type="text" class="task-input" id="task-value" placeholder="Add what you want to do..." />
             <button type="submit" class="add-btn" id="add-btn">Add</button>
         </form>
-    
+        <span id="error-msg"></span>
         <ul id="task-list"></ul>
     </main>
 
@@ -36,5 +35,9 @@
         <a href="">Discord</a>
         <a href="">LinkdIn</a>
      </footer>
+
+    <!-- DOM & Javascript section -->
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/dc15ef39cd.js" crossorigin="anonymous"></script>
 </body>
 </html>

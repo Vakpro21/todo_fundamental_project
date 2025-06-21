@@ -43,10 +43,12 @@ body {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  width: 78%;
+  margin: 0 auto;
 }
 
 .add-btn {
-  padding: 10px 20px;
+  padding: 10px 40px;
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -59,12 +61,16 @@ body {
 }
 
 /* ==== Danh sách task ==== */
-.task-list {
+#task-list {
+  display: none;
+}
+
+#task-list {
   list-style: none;
   padding: 0;
 }
 
-.task-list li {
+#task-list li {
   background-color: #eee;
   padding: 10px;
   margin-bottom: 8px;
@@ -72,6 +78,27 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* ==== Error ==== */
+#error-msg {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  color: red;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+#error-msg.show {
+  opacity: 1;
+}
+
+/* Icons */
+.set-task i:hover {
+  color: red;
+  transform: scale(1.1);
 }
 
 /* ==== Footer ==== */
