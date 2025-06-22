@@ -1,0 +1,24 @@
+{
+  "name": "todo_fundamental_project",
+  "version": "1.0.0",
+  "description": "This is a basic project upon what did I learn about HTML, CSS & Javascript.",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest",
+    "docs": "jsdoc script.js -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vakpro21/todo_fundamental_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vakpro21/todo_fundamental_project/issues"
+  },
+  "homepage": "https://github.com/Vakpro21/todo_fundamental_project#readme",
+  "devDependencies": {
+    "jsdoc": "^4.0.4"
+  }
+}

@@ -1,2 +1,2 @@
 # todo_fundamental_project
-This is a basic project upon what did I learn about HTML, CSS &amp; Javascript
+This is a basic project upon what did I learn about HTML, CSS & Javascript.

@@ -1,0 +1,43 @@
+<!--
+  File: index.html
+  Description: To-Do List general interface
+  Author: Khoa Vo
+  Created on: 2025-06-04
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <!-- Header -->
+     <header class="header">
+        <h1>Welcome to my To Do App!</h1>
+        <p>This project is to demonstrate my knowledge about HTML & CSS</p>
+     </header>
+    <!-- Main structure -->
+    <main class="main">
+        <form id="todo-form">
+            <input type="text" class="task-input" id="task-value" placeholder="Add what you want to do..." />
+            <button type="submit" class="add-btn" id="add-btn">Add</button>
+        </form>
+        <span id="error-msg"></span>
+        <ul id="task-list"></ul>
+    </main>
+
+    <!-- Footer -->
+     <footer class="footer">
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">Discord</a>
+        <a href="">LinkdIn</a>
+     </footer>
+
+    <!-- DOM & Javascript section -->
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/dc15ef39cd.js" crossorigin="anonymous"></script>
+</body>
+</html>
